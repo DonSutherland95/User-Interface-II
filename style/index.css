@@ -4,26 +4,127 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid grey; */
 }
 body {
   font-family: "Roboto Mono", monospace;
 }
 /* navbar */
 .nav {
-  padding: 30px 0px;
+  padding: 2% 0;
   border-bottom: 10px solid black;
+  /* z-index: 2;
+  position: fixed; */
+  /* width: 100%; */
+  background-color: grey;
 }
-.nav__links {
+.nav-links {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  color: blue;
+  color: black;
 }
-.nav__links li a {
+.nav-links li a {
   text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  color: white;
+}
+.single-link-home {
+  color: white;
+  background-color: black;
 }
 
 /* end of navbar */
-/* banner */
 
+/* banner */
+.banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1%;
+  height: 60vh;
+}
+.banner_title {
+  font-size: 350%;
+  letter-spacing: 0.15rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.banner_container {
+  margin: 5% 0;
+  margin-top: 10%;
+}
+
+/* .banner_sub {
+  border: 5px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1%;
+} */
+.banner_sub_new {
+  border: 5px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+.myname {
+  margin-right: 70%;
+}
 /* end of banner */
+/* projects */
+
+.projects_center {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+.center-p {
+  text-align: center;
+}
+/* end of projects */
+/* contact */
+
+button {
+  margin-left: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  padding: 1%;
+}
+
+.contact_section {
+  background-color: grey;
+  /* margin-bottom: 2%; */
+}
+.contact-text {
+  border: 5px solid black;
+  margin: 0 auto;
+  padding: 1%;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 45%;
+  margin-top: 1%;
+}
+/* end of contact */
+/* footer */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  border: 2px solid black;
+}
+.footer-links a {
+  border: 2px solid black;
+  text-decoration: none;
+  margin: 1%;
+}
+/* footer */
