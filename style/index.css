@@ -1,1 +1,29 @@
-/* Add CSS styling here */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700i");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+/* navbar */
+.nav {
+  padding: 30px 0px;
+  border-bottom: 10px solid black;
+}
+.nav__links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: blue;
+}
+.nav__links li a {
+  text-decoration: none;
+}
+
+/* end of navbar */
+/* banner */
+
+/* end of banner */
